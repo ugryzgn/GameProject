@@ -16,8 +16,7 @@ namespace GameProject
             campaignManager.Add(campaign1);
 
             GameManager gameSellManager = new GameManager();
-            gameSellManager.Sell(new Game { Name = "Crusader Kings 3" }, new Gamer { FirstName = "Uğur", LastName = "Yazgan" },
-                campaign1);
+            gameSellManager.Sell(new Game { Name = "Crusader Kings 3" }, new Gamer { FirstName = "Uğur", LastName = "Yazgan" },campaign1);
         }
     }
 }
